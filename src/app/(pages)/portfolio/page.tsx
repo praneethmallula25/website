@@ -6,14 +6,14 @@ import { Navigation } from '@/app/components/ui/Navigation';
 import { Footer } from '@/app/components/ui/Footer';
 import { Section } from '@/app/components/ui/Section';
 import { Button } from '@/app/components/ui/Button';
-import { portfolioProjects } from '@/data/portfolio';
+import { portfolioProjects, PortfolioProject } from '@/data/portfolio';
 import { Filter, Grid, Eye, MapPin, Calendar, ArrowRight } from 'lucide-react';
 
 const categories = ['All', 'Residential', 'Commercial', 'Modern', 'Classic', 'Luxury', 'Coastal'];
 
 export default function PortfolioPage() {
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedProject, setSelectedProject] = useState<PortfolioProject | null>(null);
 
   const filteredProjects = selectedCategory === 'All'
     ? portfolioProjects
