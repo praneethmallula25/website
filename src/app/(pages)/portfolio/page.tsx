@@ -6,7 +6,8 @@ import { Navigation } from '@/app/components/ui/Navigation';
 import { Footer } from '@/app/components/ui/Footer';
 import { Section } from '@/app/components/ui/Section';
 import { Button } from '@/app/components/ui/Button';
-import { portfolioProjects, PortfolioProject } from '@/data/portfolio';
+import { portfolioProjects } from '@/data/portfolio';
+import { PortfolioProject } from '@/types/portfolio';
 import { Filter, Grid, Eye, MapPin, Calendar, ArrowRight } from 'lucide-react';
 
 const categories = ['All', 'Residential', 'Commercial', 'Modern', 'Classic', 'Luxury', 'Coastal'];
