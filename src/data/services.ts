@@ -85,6 +85,10 @@ export const getServiceById = (id: string): Service | undefined => {
   return services.find(service => service.id === id);
 };
 
+export const getServices = (): Service[] => {
+  return services;
+};
+
 export const getPopularServices = (): Service[] => {
   return services.filter(service => service.popular);
 };
