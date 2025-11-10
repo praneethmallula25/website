@@ -36,8 +36,8 @@ const logoVariants = {
     opacity: 1,
     transition: {
       duration: 1.2,
-      ease: [0.25, 0.46, 0.45, 0.94],
-      type: 'spring',
+      ease: [0.25, 0.46, 0.45, 0.94] as const,
+      type: 'spring' as const,
       stiffness: 50
     }
   },
@@ -45,9 +45,9 @@ const logoVariants = {
     scale: 1.05,
     transition: {
       duration: 2,
-      repeat: Infinity,
-      repeatType: 'reverse',
-      ease: 'easeInOut'
+      repeat: Infinity as const,
+      repeatType: 'reverse' as const,
+      ease: 'easeInOut' as const
     }
   }
 };
@@ -63,7 +63,7 @@ const textVariants = {
     transition: {
       duration: 0.8,
       delay: 0.8,
-      ease: 'easeOut'
+      ease: 'easeOut' as const
     }
   },
   exit: {
@@ -71,7 +71,7 @@ const textVariants = {
     y: -30,
     transition: {
       duration: 0.4,
-      ease: 'easeIn'
+      ease: 'easeIn' as const
     }
   }
 };
