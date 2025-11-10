@@ -40,7 +40,6 @@ const footerSections = [
 const socialLinks = [
   { icon: Instagram, href: '#', label: 'Instagram' },
   { icon: Facebook, href: '#', label: 'Facebook' },
-  { icon: Pinterest, href: '#', label: 'Pinterest' },
   { icon: Linkedin, href: '#', label: 'LinkedIn' }
 ];
 
