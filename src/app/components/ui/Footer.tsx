@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Instagram, Facebook, Pinterest, LinkedIn } from 'lucide-react';
+import { MapPin, Phone, Mail, Instagram, Facebook, Pinterest, Linkedin } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface FooterProps {
