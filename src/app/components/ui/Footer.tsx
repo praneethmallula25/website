@@ -41,7 +41,7 @@ const socialLinks = [
   { icon: Instagram, href: '#', label: 'Instagram' },
   { icon: Facebook, href: '#', label: 'Facebook' },
   { icon: Pinterest, href: '#', label: 'Pinterest' },
-  { icon: LinkedIn, href: '#', label: 'LinkedIn' }
+  { icon: Linkedin, href: '#', label: 'LinkedIn' }
 ];
 
 const containerVariants = {
