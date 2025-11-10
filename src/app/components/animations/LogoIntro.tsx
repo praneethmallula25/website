@@ -45,7 +45,7 @@ const logoVariants = {
     scale: 1.05,
     transition: {
       duration: 2,
-      repeat: Infinity as const,
+      repeat: Infinity,
       repeatType: 'reverse' as const,
       ease: 'easeInOut' as const
     }
